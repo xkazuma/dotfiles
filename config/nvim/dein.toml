@@ -1,0 +1,29 @@
+[[plugins]]
+  repo = 'Shougo/dein.vim'
+
+[[plugins]]
+  repo = 'Townk/vim-autoclose'
+
+[[plugins]]
+  repo = 'nanotech/jellybeans.vim'
+  hook_add = '''
+    colorscheme jellybeans
+  '''
+
+[[plugins]]
+  repo = 'airblade/vim-gitgutter'
+  hook_add = '''
+    source ~/.config/nvim/plugins/vim-gitgutter.vim
+  '''
+
+[[plugins]]
+  repo = 'tpope/vim-fugitive'
+  hook_add = '''
+    source ~/.config/nvim/plugins/vim-fugitive.vim
+  '''
+
+[[plugins]]
+  repo = 'Shougo/denite.nvim'
+  hook_add = '''
+    source ~/.config/nvim/plugins/denite.vim
+  '''
