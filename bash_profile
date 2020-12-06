@@ -24,3 +24,6 @@ alias webstorm="${WS}/src/WebStorm-202.7660.23/bin/webstrom.sh & > /dev/null"
 # Zeppelin
 alias zeppelin-start="PWD=`pwd` && cd $WS/docker/compose/zeppelin && docker-compose up   -d ; cd $PWD"
 alias  zeppelin-stop="PWD=`pwd` && cd $WS/docker/compose/zeppelin && docker-compose down    ; cd $PWD"
+
+# Tmux
+source ~/.bash_profile-tmux

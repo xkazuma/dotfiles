@@ -1,4 +1,4 @@
-conf      := vimrc bash_profile config cache colorrc tmux.conf
+conf      := vimrc bash_profile bash_profile-tmux config cache colorrc tmux.conf
 installer := installer.sh
 BASEDIR   := $(shell pwd)
 
